@@ -26,6 +26,8 @@ const server =  createServer((req,res)=>{
                 res.statusCode = 404
                 res.write(JSON.stringify({message : 'User not found'}));
                 res.end()
+
+                
             }
         }
 })
